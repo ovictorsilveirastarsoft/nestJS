@@ -1,5 +1,6 @@
 Estudos
 
+Imersão full cycle baixada > no inicio do segundo video
 
 Asana > NestJS > monorepo
 
