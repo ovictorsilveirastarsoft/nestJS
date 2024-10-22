@@ -26,6 +26,27 @@ Para criar um crud usar o comando nest g resource routes >>> REST API >> Y
 ORM biblioteca que faz interação com banco de dados relacionais
 
 
+PARA GERAR UM MICROSERVICE COMPLETO npx nest generate resource
+
+reservamks@MacBook-Pro-de-Reserva nestjs-api % npx nest generate         
+error: missing required argument 'schematic'
+reservamks@MacBook-Pro-de-Reserva nestjs-api % npx nest generate resource
+? What name would you like to use for this resource (plural, e.g., "users")? categories
+? What transport layer do you use? REST API
+? Would you like to generate CRUD entry points? Yes
+CREATE src/categories/categories.controller.spec.ts (616 bytes)
+CREATE src/categories/categories.controller.ts (989 bytes)
+CREATE src/categories/categories.module.ts (283 bytes)
+CREATE src/categories/categories.service.spec.ts (488 bytes)
+CREATE src/categories/categories.service.ts (667 bytes)
+CREATE src/categories/dto/create-category.dto.ts (34 bytes)
+CREATE src/categories/dto/update-category.dto.ts (185 bytes)
+CREATE src/categories/entities/category.entity.ts (25 bytes)
+UPDATE package.json (1979 bytes)
+UPDATE src/app.module.ts (332 bytes)
+✔ Packages installed successfully.
+
+
 
 --------------------------------------------------------------------------------
 Trilha de estudos
